@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  SecondaryText.swift
 //  
 //
 //  Created by Jean-Marc Boullianne on 4/18/20.

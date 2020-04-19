@@ -11,7 +11,6 @@ import SwiftUI
 public struct PrimaryButton: ViewModifier {
     public func body(content: Content) -> some View {
         content
-            .font(Font.system(size: Sizes.paragraphPoint, weight: .regular, design: .default))
             .foregroundColor(Colors.textButtonPrimary)
             .padding(.vertical, Sizes.paddingButtonVertical)
             .padding(.horizontal, Sizes.paddingButtonHorizontal)

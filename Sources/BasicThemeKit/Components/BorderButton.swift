@@ -22,7 +22,7 @@ public struct BorderButton: ViewModifier {
 }
 
 extension View {
-    public func BorderButton() -> some View {
-        self.modifier(PrimaryButton())
+    public func borderButton() -> some View {
+        self.modifier(BorderButton())
     }
 }

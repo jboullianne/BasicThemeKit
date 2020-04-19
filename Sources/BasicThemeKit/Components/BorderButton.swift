@@ -15,8 +15,8 @@ public struct BorderButton: ViewModifier {
             .padding(.vertical, Sizes.paddingButtonVertical)
             .padding(.horizontal, Sizes.paddingButtonHorizontal)
             .background(Color.clear)
-            .cornerRadius(Sizes.cornerRadius)
             .border(Colors.buttonPrimaryBackground.opacity(0.18), width: 2)
+            .cornerRadius(Sizes.cornerRadius)
             .shadow(color: Colors.shadowButtonPrimary, radius: 12, x: 0, y: 0)
     }
 }

@@ -8,16 +8,16 @@
 import Foundation
 import SwiftUI
 
-public struct H1: ViewModifier {
+public struct H2: ViewModifier {
     public func body(content: Content) -> some View {
         content
-            .font(Font.system(size: Sizes.h1Point, weight: .bold, design: .default))
+            .font(Font.system(size: Sizes.h2Point, weight: .bold, design: .default))
             .foregroundColor(Colors.textHeaderPrimary)
     }
 }
 
 extension View {
-    public func h1() -> some View {
-        self.modifier(H1())
+    public func h2() -> some View {
+        self.modifier(H2())
     }
 }

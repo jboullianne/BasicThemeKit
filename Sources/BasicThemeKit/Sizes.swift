@@ -17,4 +17,7 @@ public class Sizes {
     public static let h3Point: CGFloat = 19
     public static let paragraphPoint: CGFloat = 16
     public static let footerPoint: CGFloat = 13.5
+    
+    public static let paddingButtonVertical: CGFloat = 9
+    public static let paddingButtonHorizontal: CGFloat = 16
 }

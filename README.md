@@ -32,7 +32,7 @@ Text("H4 Header String")
     .h4()
 
 // Paragraph Styling
-Text("This create text formatted for a paragraph.")
+Text("This creates text formatted for a paragraph.")
     .paragraph()
 ```
 ### Buttons

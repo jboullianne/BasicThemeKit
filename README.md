@@ -9,3 +9,63 @@ Written for [TrailingClosure.com](https://trailingclosure.com/).
 
 
 ![Example](images/BasicThemeKit_Example.png?v=4&s=200)
+
+## Usage
+** All of the elements are created as a `ViewModifier` with extensions placed on `View`. **
+
+### Text
+```
+// H1 Header
+Text("H1 Header String")
+    .h1()
+    
+// H2 Header
+Text("H2 Header String")
+    .h2()
+
+// H3 Header
+Text("H3 Header String")
+    .h3()
+
+// H4 Header
+Text("H4 Header String")
+    .h4()
+
+// Paragraph Styling
+Text("This create text formatted for a paragraph.")
+    .paragraph()
+```
+### Buttons
+```
+// Primary Button
+Button(action: {}) {
+    Text("Primary Button")
+        .primaryButton()
+        .h4() // You can use text styling on buttons too!
+}
+
+// Border Button
+Button(action: {}) {
+    Text("Border Button")
+        .borderButton()
+        .h4()
+}
+```
+### Block Quote
+```
+// Block Quote - Primary Styling
+Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+    .paragraph()
+    .blockQuote(style: .Primary)
+/*
+Other Styles:
+    - .Success
+    - .Warning
+    - .Error
+*/
+```
+### Setup
+Install as a Swift Package using the link for this git repository.
+
+`https://github.com/jboullianne/BasicThemeKit.git`
+

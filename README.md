@@ -8,7 +8,7 @@ Written for [TrailingClosure.com](https://trailingclosure.com/).
 > BasicThemeKit is a starter SwiftUI package that allows you to quickly format elements in your app around a common theme. All of the elements contained in the kit have extensions from  `View` so that it may be used in as little code as possible, mainting the readability of your application code. 
 
 
-![Example](images/BasicThemeKit_Example.png?v=4&s=200)
+![Example](images/BasicThemeKit.png?v=4&s=200)
 
 ## Usage
 **All of the elements are created as a `ViewModifier` with extensions placed on `View`.**
@@ -57,6 +57,25 @@ Button(action: {}) {
 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
     .paragraph()
     .blockQuote(style: .Primary)
+/*
+Other Styles:
+    - .Success
+    - .Warning
+    - .Error
+*/
+```
+### Notification Banner
+![Banner](images/BasicThemeKit_Banner.gif)
+```swift
+// Change the bool value to toggle display of the Notification banner.
+@State var bannerVisible: Bool = false
+
+ZStack {
+    // All of your normal content in here.
+}
+.banner(title: "Test Banner", subtitle: "Test subtitle for this notifcation I am displaying. Cool right!", style: .Primary, isVisible: $bannerVisible)
+
+// Banner will automatically hide after a few seconds. That is why the bool value is passed as a binding.
 /*
 Other Styles:
     - .Success

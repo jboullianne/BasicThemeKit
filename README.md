@@ -1,7 +1,7 @@
 # BasicThemeKit
 ### SwiftUI Theme Kit
 
-![License](https://img.shields.io/github/license/jboullianne/BasicThemeKit) ![Stars](https://img.shields.io/github/stars/jboullianne/BasicThemeKit?style=social)
+![License](https://img.shields.io/github/license/jboullianne/BasicThemeKit) ![Stars](https://img.shields.io/github/stars/jboullianne/BasicThemeKit?style=social)![Followers](https://img.shields.io/github/followers/jboullianne?style=social)![Forks](https://img.shields.io/github/forks/jboullianne/BasicThemeKit?style=social)
 
 Written for [TrailingClosure.com](https://trailingclosure.com/).
 

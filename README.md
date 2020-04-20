@@ -11,7 +11,7 @@ Written for [TrailingClosure.com](https://trailingclosure.com/).
 ![Example](images/BasicThemeKit_Example.png?v=4&s=200)
 
 ## Usage
-** All of the elements are created as a `ViewModifier` with extensions placed on `View`. **
+**All of the elements are created as a `ViewModifier` with extensions placed on `View`.**
 
 ### Text
 ```
@@ -52,7 +52,7 @@ Button(action: {}) {
 }
 ```
 ### Block Quote
-```
+```swift
 // Block Quote - Primary Styling
 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
     .paragraph()

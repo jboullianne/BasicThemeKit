@@ -14,7 +14,7 @@ Written for [TrailingClosure.com](https://trailingclosure.com/).
 **All of the elements are created as a `ViewModifier` with extensions placed on `View`.**
 
 ### Text
-```
+```swift
 // H1 Header
 Text("H1 Header String")
     .h1()
@@ -36,7 +36,7 @@ Text("This create text formatted for a paragraph.")
     .paragraph()
 ```
 ### Buttons
-```
+```swift
 // Primary Button
 Button(action: {}) {
     Text("Primary Button")
